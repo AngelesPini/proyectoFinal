@@ -1,0 +1,32 @@
+@import "responsive";
+@import "nav";
+@import "header";
+@import "main";
+@import "footer";
+
+body {
+    background-image: url(../media/1st-background.jpg);
+    background-color: beige;
+    background-attachment: fixed;
+    background-size:auto;
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+
+nav {
+    grid-area: nav;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+
+}

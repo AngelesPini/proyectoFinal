@@ -1,0 +1,97 @@
+@media screen and (max-width:899px){
+    body {
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+nav {
+    grid-area: nav;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+main {
+    .coder{
+        color: black;
+        font-size:3em;
+        font-family: 'Barlow Condensed', sans-serif;
+        }
+    .diseno {
+        color: black;
+        font-size:3em;
+        font-family: 'Dancing Script';
+        }
+    p {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:1em;
+        color: black;
+    }
+}
+.item {
+    padding: 10px;
+    margin: 5px;
+}
+.charlemos {
+    justify-content: left;
+    justify-items: left;
+    padding: 15px;
+    font-size: 1.3em;
+    font-family: 'Barlow Condensed', sans-serif;
+    }
+.btn-primary {
+    justify-content: center;
+    left: 100px;
+}
+.navbar {
+    justify-content: end;
+}
+.tam {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.pants {
+    display: grid;
+    justify-content: center;
+}
+
+.pantalla.cod {
+    width: 100%;
+    height: 100%;
+}
+.marca {
+    display: grid;
+    justify-content: start;
+}
+.apunta {
+    width: 50%;
+    height: 50%;
+    margin: 75px 0px 0px 5px;
+    display: grid;
+    justify-content: center;
+ }
+ .emprende {
+    width: 50%;
+    height: 50%;
+    margin: 50px 0px 0px 5px; 
+    display: grid;
+    justify-content: center;
+ }
+ .car {
+    animation: fadeInDownBig;
+    animation-duration: 2s;
+    width: 50%;
+    height: 50%; 
+}
+}

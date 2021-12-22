@@ -1,0 +1,22 @@
+header{
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 6em;
+}
+h1 {
+    display: inline-block;
+  
+    animation: bounceInDown;
+    animation-duration: 2s;   
+}
+div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3em;
+}
+}

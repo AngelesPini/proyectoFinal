@@ -1,0 +1,19 @@
+$tamaño-logo: 100px;
+nav{
+    background-color: black;
+
+ul li a {
+    font-family: 'Dancing Script', cursive;
+    margin: 15px;
+    justify-content: end;
+}
+
+.home {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+img.logo {
+    width: $tamaño-logo/2; height: $tamaño-logo/2;
+    float: left;
+    }
+}
